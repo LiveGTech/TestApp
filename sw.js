@@ -18,7 +18,7 @@ self.addEventListener("fetch", function(event) {
                 });
             }
         
-            if (navigator.online && ["ethernet", "wifi"].includes(navigator.connection?.type)) { // Typically non-metered
+            if (navigator.onLine && ["ethernet", "wifi"].includes(navigator.connection?.type)) { // Typically non-metered
                 console.log("On Ethernet or Wi-Fi; not retrieving from cache");
 
                 return fetchOnline();
