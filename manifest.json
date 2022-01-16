@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "TestApp",
+    "short_name": "TestApp",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "An Adapt UI test application that is designed for offline usage."
+}
